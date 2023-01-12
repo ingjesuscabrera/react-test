@@ -20,6 +20,7 @@ const Layout = () => {
           <NavDropdown.Item eventKey="4.3" href="/badges">Badges</NavDropdown.Item>
           <NavDropdown.Item eventKey="4.4" href="/breadcrumbs">Breadcrumb</NavDropdown.Item>
           <NavDropdown.Item eventKey="4.5" href="/buttons">Buttons</NavDropdown.Item>
+          <NavDropdown.Item eventKey="4.6" href="/Cards">Cards</NavDropdown.Item>
           </NavDropdown>
           </Nav>
          

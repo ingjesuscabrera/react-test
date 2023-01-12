@@ -15,6 +15,7 @@ import Accordion  from "./pages/Accordion";
 import Badges  from "./pages/Badges";
 import Breadcrumbs from "./pages/Breadcrumbs";
 import Buttons from "./pages/Buttons";
+import Cards from "./pages/Cards";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -29,6 +30,7 @@ root.render(
       <Route path="badges" element={<Badges/>} />
       <Route path="breadcrumbs" element={<Breadcrumbs/>} />
       <Route path="buttons" element={<Buttons/>} />
+      <Route path="cards" element={<Cards/>} />
       <Route path="*" element={<NoPage />} />
     </Route>
   </Routes>
