@@ -10,6 +10,11 @@ import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
+import Alerts from "./pages/Alerts";
+import Accordion  from "./pages/Accordion";
+import Badges  from "./pages/Badges";
+import Breadcrumbs from "./pages/Breadcrumbs";
+import Buttons from "./pages/Buttons";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +24,11 @@ root.render(
       <Route index element={<Home />} />
       <Route path="blogs" element={<Blogs />} />
       <Route path="contact" element={<Contact />} />
+      <Route path="alerts" element={<Alerts />} />
+      <Route path="accordion" element={<Accordion/>} />
+      <Route path="badges" element={<Badges/>} />
+      <Route path="breadcrumbs" element={<Breadcrumbs/>} />
+      <Route path="buttons" element={<Buttons/>} />
       <Route path="*" element={<NoPage />} />
     </Route>
   </Routes>
