@@ -20,7 +20,12 @@ const Layout = () => {
           <NavDropdown.Item eventKey="4.3" href="/badges">Badges</NavDropdown.Item>
           <NavDropdown.Item eventKey="4.4" href="/breadcrumbs">Breadcrumb</NavDropdown.Item>
           <NavDropdown.Item eventKey="4.5" href="/buttons">Buttons</NavDropdown.Item>
-          <NavDropdown.Item eventKey="4.6" href="/Cards">Cards</NavDropdown.Item>
+          <NavDropdown.Item eventKey="4.6" href="/cards">Cards</NavDropdown.Item>
+          <NavDropdown.Item eventKey="4.7" href="/carousels">Carousel</NavDropdown.Item>
+          <NavDropdown.Item eventKey="4.8" href="/fetch">Fetch</NavDropdown.Item>
+          <NavDropdown.Item eventKey="4.9" href="/shoping">Shoping</NavDropdown.Item>
+          <NavDropdown.Item eventKey="4.10" href="/Crud">Crud</NavDropdown.Item>
+          <NavDropdown.Item eventKey="4.11" href="/Eventos">Eventos</NavDropdown.Item>
           </NavDropdown>
           </Nav>
          

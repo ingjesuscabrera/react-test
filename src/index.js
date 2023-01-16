@@ -16,6 +16,11 @@ import Badges  from "./pages/Badges";
 import Breadcrumbs from "./pages/Breadcrumbs";
 import Buttons from "./pages/Buttons";
 import Cards from "./pages/Cards";
+import Carousels from "./pages/Carousels";
+import Shoping from "./pages/Shoping";
+import Crud from "./pages/Crud";
+import Eventos from "./pages/Eventos";
+import Fetch from "./pages/Fetch";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,6 +36,11 @@ root.render(
       <Route path="breadcrumbs" element={<Breadcrumbs/>} />
       <Route path="buttons" element={<Buttons/>} />
       <Route path="cards" element={<Cards/>} />
+      <Route path="carousels" element={<Carousels/>} />
+      <Route path="fetch" element={<Fetch/>} />
+      <Route path="shoping" element={<Shoping/>} />
+      <Route path="Crud" element={<Crud/>} />
+      <Route path="Eventos" element={<Eventos/>} />
       <Route path="*" element={<NoPage />} />
     </Route>
   </Routes>
